@@ -164,7 +164,7 @@ aside, footer {
     }
     .box {
         font-size: 0.7rem;
-        height: 10rem;
+        height: 12rem;
         padding: 1rem;
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -183,7 +183,7 @@ aside, footer {
         line-height: 0.5rem;
     }
     .material-icons {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .instructions {
         font-size: 1.1rem;
