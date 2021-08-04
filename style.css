@@ -138,7 +138,7 @@ aside, footer {
         width: 100%;
     }
     header > h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     header > section > .subject {
         width: 100%;
@@ -149,10 +149,10 @@ aside, footer {
         margin: none;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     h6 {
         font-size: 0.5rem;
@@ -163,7 +163,7 @@ aside, footer {
     }
     .box {
         font-size: 0.5rem;
-        height: 8rem;
+        height: 6rem;
         padding: 1rem;
         display: grid;
         grid-template-rows: 1fr 1fr;
