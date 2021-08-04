@@ -163,7 +163,7 @@ aside, footer {
     }
     .box {
         font-size: 0.5rem;
-        height: 10rem;
+        height: 8rem;
         padding: 1rem;
         display: grid;
         grid-template-rows: 1fr 1fr;
