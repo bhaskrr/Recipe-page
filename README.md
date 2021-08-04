@@ -43,4 +43,4 @@ $ git clone https://github.com/bhaskrr/Recipe-page/
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/bhaskrr)
+- GitHub [@bhaskrr](https://github.com/bhaskrr)
