@@ -83,7 +83,7 @@ label {
     border-radius: 1rem;
     position: absolute;
     right: 2rem;
-    top: 100vh;
+    top: 150vh;
 }
 .box > section {
     display: flex;
