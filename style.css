@@ -167,7 +167,6 @@ aside, footer {
         padding: 1rem;
         display: grid;
         grid-template-rows: 1fr 1fr;
-        row-gap: 1rem;
     }
     .prep-time {
         grid-row-start: 2;
