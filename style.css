@@ -1,0 +1,192 @@
+:root {
+    --playfair-font: 'Playfair Display', serif;
+    --montserrat-font: 'Montserrat', sans-serif;
+    --gray: rgb(129,129,129);
+}
+/** {
+    border: 1px solid red;
+}*/
+body {
+    box-sizing: border-box;
+    margin: 2rem;
+}
+article {
+    width: 50%;
+}
+header > h1 {
+    font-family: var(--playfair-font);
+    font-weight: 700;
+    font-size: 3rem;
+}
+header > section {
+    display: flex;
+}
+header > section > p > .dots {
+    margin-right: 0.7rem;
+}
+header > section > .subject {
+    font-family: var(--montserrat-font);
+    font-weight: 400;
+    font-style: italic;
+    width: 35%;
+}
+.ice-cream-img {
+    width: 100%;
+    border-radius: 1rem;
+}
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.checkbox-section {
+    display: grid;
+    grid-template-columns: 1vw 1fr;
+    column-gap: 1rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-family: var(--playfair-font);
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+}
+h6 {
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--gray)
+}
+.orange {
+    color: rgb(255, 166, 0);
+}
+.bold-text {
+    font-weight: bold;
+}
+.less-bold-text {
+    font-weight: 550;
+}
+label {
+    font-family: var(--montserrat-font);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+}
+.box {
+    font-size: 1.4rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 130vh;
+}
+.box > section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.box > section > section {
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    line-height: 0.3rem;
+    padding-left: 0.5rem;
+}
+.material-icons {
+    font-size: 5rem;
+}
+.instructions {
+    font-family: var(--montserrat-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.instructions > .proceedure {
+    display: flex;
+}    
+
+.styled-nums {
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: rgb(255, 180, 0);
+}
+aside, footer {
+    color: var(--gray);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 1rem;
+    }
+    article {
+        width: 100%;
+    }
+    header > h1 {
+        font-size: 2rem;
+    }
+    header > section > .subject {
+        width: 100%;
+    }
+    input[type="checkbox"] {
+        width: 1rem;
+        height: 1rem;
+        margin: none;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    label {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    .box {
+        font-size: 1rem;
+        position: relative;
+        top: 1rem;
+        left: 0.1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .prep-time {
+        grid-row-start: 2;
+    }
+    .cook-time {
+        grid-row-start: 2;
+    }
+    .total-time {
+        grid-row-start: 2;
+    }
+    .box > section > section {
+        line-height: 0.1rem;
+    }
+    .material-icons {
+        font-size: 3.5rem;
+    }
+    .instructions {
+        font-size: 1.1rem;
+    }
+    .styled-nums {
+        width: 1rem;
+        height: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    aside, footer {
+        font-size: 1rem;
+    }
+}
