@@ -83,7 +83,7 @@ label {
     border-radius: 1rem;
     position: absolute;
     right: 2rem;
-    top: 130vh;
+    top: 3rem;
 }
 .box > section {
     display: flex;
@@ -154,7 +154,7 @@ aside, footer {
         line-height: 1.5rem;
     }
     .box {
-        font-size: 1rem;
+        font-size: 0.5rem;
         position: relative;
         top: 1rem;
         left: 0.1rem;
