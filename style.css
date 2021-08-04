@@ -178,7 +178,7 @@ aside, footer {
         grid-row-start: 2;
     }
     .box > section > section {
-        line-height: 0.5rem;
+        line-height: 0.1rem;
     }
     .material-icons {
         font-size: 2rem;
